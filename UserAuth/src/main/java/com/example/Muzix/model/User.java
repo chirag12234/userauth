@@ -8,11 +8,11 @@ public class User {
 
   
     @Id
-    private String emailId;
     private String userName;
+    private String emailId;
     private String userPassword;
 	private String phoneNo;
-   
+   // private byte[] photo;
     
 	public User() {
 		super();
