@@ -67,7 +67,7 @@ public class UserAuthController {
 		jwtToken = Jwts.builder()
 				   .setId(userName)
 				   .setSubject(password)
-				   .setIssuedAt(new Date())
+				   
 				   .signWith(SignatureAlgorithm.HS256, "mykey")
 				   .compact();
 
